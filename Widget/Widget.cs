@@ -128,5 +128,11 @@ namespace Widget
             if (e.Button == MouseButtons.Left)
                 isMouseDown = false;
         }
+
+        abstract class Widget()
+        {
+            public int Version { get; set; }
+
+        }
     }
 }
